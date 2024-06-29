@@ -12,10 +12,3 @@ git remote add origin https://github.com/Alexander091196/API_RENIEC.git
 
 git push -u origin main
 
-
-
-git remote add origin https://github.com/Alexander091196/API_RENIEC.git
-
-git branch -M main
-
-git push -u origin main
