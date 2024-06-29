@@ -29,13 +29,14 @@ function mostrarDatos(datos) {
     if (datos.success) {
         const info = datos.data;
         resultados.innerHTML = `
-            <p><strong>DNI:</strong> ${info.dni}</p>
-            <p><strong>Nombres:</strong> ${info.nombres}</p>
-            <p><strong>Apellido Paterno:</strong> ${info.apellido_paterno}</p>
-            <p><strong>Apellido Materno:</strong> ${info.apellido_materno}</p>
+            <p><strong>DNI: </strong> ${info.numero}</p>
+            <p><strong>Código de verificación: </strong> ${info.codigo_verificacion}</p>
+            <p><strong>Nombres: </strong> ${info.nombres}</p>
+            <p><strong>Apellido Paterno: </strong> ${info.apellido_paterno}</p>
+            <p><strong>Apellido Materno: </strong> ${info.apellido_materno}</p>
+
         `;
     } else {
         resultados.innerHTML = '<p>No se encontraron datos para el DNI ingresado.</p>';
     }
 }
-
