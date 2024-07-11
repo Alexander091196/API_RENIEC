@@ -1,4 +1,6 @@
-﻿# API_RENIEC
+﻿## CONSUMIR API RENIEC
+Consumimos la API de la RENIEC para obtener datos importantes de la persona solo con su documento de identidad (DNI)
+
 
 ## Clonar repositorio
 
